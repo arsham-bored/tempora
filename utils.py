@@ -142,7 +142,7 @@ valid_contact_text = """
 """
 
 contact_already_been_text = """
-مخاطب از قبل در دیتابیس وجود دارد !
+مخاطب از قبل در دیتابیس وجود دارد!😃
 """
 
 create_copy_of_bot_text = """
@@ -189,7 +189,7 @@ async def welcome_message(bot, event):
 
 
 async def invalid_message(bot, event):
-    await bot.send_message(event.chat_id, "بنظر نمیاد اسم یا ایدی فرستاده باشید", buttons=general_options)
+    await bot.send_message(event.chat_id, "بنظر نمیاد (شناسه کاربری، یوزرنیم و یا پیغام فوروارد شده از سوی کاربر) فرستاده باشيد 🧐", buttons=general_options)
 
 
 async def searching(bot, event):
@@ -214,7 +214,7 @@ async def in_development(bot, event):
 
 
 async def ask_to_share_contacts(bot, event):
-    await bot.send_message(event.chat_id, "شماره مورد نظر رو به صورت مخاطب تلگرام ارسال کنید.",
+    await bot.send_message(event.chat_id, "شماره مورد نظر رو به صورت مخاطب تلگرام ارسال کنید📱",
                            buttons=turn_back_option)
 
 
