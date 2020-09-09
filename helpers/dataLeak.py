@@ -5,7 +5,7 @@ import json
 
 logging.basicConfig(level=logging.INFO)
 
-base_url = "http://46.101.253.210:5000"
+base_url = "http://localhost:5000"
 
 
 def search_id(userid):
